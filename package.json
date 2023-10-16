@@ -1,0 +1,13 @@
+{
+	"name": "enlearn",
+	"version": "1.0.0",
+	"scripts": {
+		"serve": "concurrently \"cd server && yarn dev\" \"cd client && yarn start\""
+	},
+	"dependencies": {
+		"concurrently": "^8.2.1"
+	},
+	"author": "Darshaan D Aghicha <dsaghicha>",
+	"repository": "https://github.com/DSAghicha/enlearn",
+	"license": "MIT"
+}
