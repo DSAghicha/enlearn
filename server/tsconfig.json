@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+		"esModuleInterop": true,
+		"module": "NodeNext",
+		"moduleDetection": "force",
+		"moduleResolution": "NodeNext",
+		"outDir": "dist/",
+		"paths": {
+			"*": ["./src/@types/*"],
+			"@base": ["./src/bases/index.ts"],
+			"@database": ["./src/databases/index.ts"],
+			"@interfaces": ["./src/interfaces/index.ts"],
+			"@middlewares": ["./src/middlewares/index.ts"],
+			"@models": ["./src/models/index.ts"],
+			"@modules": ["./src/modules/index.ts"],
+			"@utils": ["./src/utils/index.ts"]
+		},
+		"skipLibCheck": true,
+		"sourceMap": true,
+		"strict": true,
+		"removeComments": true,
+		"resolveJsonModule": true
+	},
+	"include": ["src"],
+	"exclude": ["node_modules"]
+}
