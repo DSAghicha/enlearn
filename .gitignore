@@ -10,6 +10,7 @@ orgData/
 # production
 build/
 dist/
+logs/
 
 # debug
 npm-debug.log*
