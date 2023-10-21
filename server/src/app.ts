@@ -8,12 +8,13 @@ import { FileLogger } from './utils'
 import { Server } from './base'
 import cookieParser from 'cookie-parser'
 import cors from 'cors'
+import { ApiController } from './modules'
 
 const app: Application = express()
 const env = new EnvConfig()
 const fileLogger = new FileLogger()
 const server = new Server(app, env.HOST, env.PORT, fileLogger)
-server.CONTROLLERS = []
+server.CONTROLLERS = [new ApiController()]
 server.MIDDLEWARES = [
 	cookieParser(),
 	cors({ origin: env.ALLOWED_HOSTS }),
