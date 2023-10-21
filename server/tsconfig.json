@@ -6,14 +6,7 @@
 		"moduleResolution": "NodeNext",
 		"outDir": "dist/",
 		"paths": {
-			"*": ["./src/@types/*"],
-			"@base": ["./src/bases/index.ts"],
-			"@database": ["./src/databases/index.ts"],
-			"@interfaces": ["./src/interfaces/index.ts"],
-			"@middlewares": ["./src/middlewares/index.ts"],
-			"@models": ["./src/models/index.ts"],
-			"@modules": ["./src/modules/index.ts"],
-			"@utils": ["./src/utils/index.ts"]
+			"*": ["./src/@types/*"]
 		},
 		"skipLibCheck": true,
 		"sourceMap": true,
